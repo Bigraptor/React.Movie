@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Marvel');
+
+#movie_card{
+    display : flex;
+    flex-wrap : wrap;
+    width : 40%;
+    margin : 2%;
+    margin-top : 4%;
+    margin-left : 5%;
+    justify-content: space-between;
+    background-color : #F6F6F6;
+    box-shadow: 0 8px 38px rgba(133, 133, 133, 0.3), 0 5px 12px rgba(133, 133, 133,0.22);
+}
+
+#movie_detail{
+    width: 73%;
+    font-family: 'Marvel', sans-serif;
+}
+
+#movie_title{
+    margin: 2%;
+}
+
+#movie_poster{
+    height:140px;
+}
+
+#movie_poster img{
+    width : 130px;
+    height : 160px;
+    position : relative;
+    top : -25px;
+    box-shadow: 0 8px 38px rgba(133, 133, 133, 0.3), 0 5px 12px rgba(133, 133, 133,0.22);
+}
+
+#movie_genres{
+    font-size: 12px;
+    margin-bottom:3%;
+    margin-left : 2%;
+}
+
+#movie_genres span{
+    margin-right : 3%;
+}
+
+#movie_synop{
+    font-size : 11px;
+    padding: 5px;
+}
